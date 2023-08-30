@@ -5,3 +5,4 @@ ubuntu-target
 [targets:vars]
 ansible_user=buzz
 ansible_host=192.168.0.131
+ansible_ssh_private_key_file=/home/sadmin/.ssh/id_rsa
