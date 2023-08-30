@@ -1,0 +1,7 @@
+[targets]
+ubuntu-target
+
+
+[targets:vars]
+ansible_user=buzz
+ansible_host=192.168.0.131

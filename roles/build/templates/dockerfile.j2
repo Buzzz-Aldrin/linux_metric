@@ -1,0 +1,10 @@
+FROM ubuntu:22.04
+LABEL author={{ author }}
+RUN apt-get update
+RUN apt-get install nginx -y
+WORKDIR /var/www/html/
+COPY files/index.html .
+ENv OWNER={{ owner }}
+ENV TYPE={{ type }}
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

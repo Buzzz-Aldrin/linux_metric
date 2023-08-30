@@ -1,0 +1,13 @@
+dest: "./download"
+
+links:
+  - https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.0/amd64/linux-headers-6.0.0-060000-generic_6.0.0-060000.202210022231_amd64.deb
+  - https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.0/amd64/linux-headers-6.0.0-060000_6.0.0-060000.202210022231_all.deb
+  - https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.0/amd64/linux-image-unsigned-6.0.0-060000-generic_6.0.0-060000.202210022231_amd64.deb
+  - https://kernel.ubuntu.com/~kernel-ppa/mainline/v6.0/amd64/linux-modules-6.0.0-060000-generic_6.0.0-060000.202210022231_amd64.deb
+
+packages:
+  - linux-headers-6.0.0-060000_6.0.0-060000.202210022231_all.deb
+  - linux-headers-6.0.0-060000-generic_6.0.0-060000.202210022231_amd64.deb
+  - linux-modules-6.0.0-060000-generic_6.0.0-060000.202210022231_amd64.deb
+  - linux-image-unsigned-6.0.0-060000-generic_6.0.0-060000.202210022231_amd64.deb
