@@ -52,7 +52,7 @@ echo "<!DOCTYPE HTML>
             <th>Kernel version</th>
             <th>User</th>
             <th>Computers name</th>
-            <th>CPU %</th>
+            <!-- <th>CPU %</th> -->
             <th>Load Average</th>
             <th>Memory Used (mb)</th>
             <th>Memory Avalible (mb)</th>
@@ -65,7 +65,7 @@ echo "<!DOCTYPE HTML>
             <td>$KERNEL_VER</td>
             <td>$USERNAME</td>
             <td>$COMP_NAME</td>
-            <td>$CPU_SYS</td>
+            <!-- <td>$CPU_SYS</td> -->
             <td>$LOAD</td>
             <td>$MEM_USED</td>
             <td>$MEM_AVAIL</td>
