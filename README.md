@@ -19,6 +19,8 @@ Create and fill in the ansible.cfg and hosts files to connect Ansible to the rem
 * script - runs a script. The result of a script is an html-page that is delivered to the remote computer.
 * build - creates a dockerfile from the prepared template, creates a docker image, launches a docker container in detach mode, mounts the folder with the result of the script, forwards ports, and also checks the healthcheck of the running container.
 
+Docker image is created based on the base Ubuntu:22.04 image. Instruction on creating a docker image includes the information on setting working directory, information on updating the package list, installing the nginx web server to display an html-page, background information on the need to open ports, a description of the command that will be executed when the container is started, and a few other unimportant variables.
+
 For ease of use, all variables for each role are placed in a separate vars folder.
 Once the playbook is up and running, you should see a success message. After opening a browser and writing the IP of the remote computer into the address bar (192.168.0.131 in my case), you should see the result of the work.
 
