@@ -31,6 +31,7 @@ After installing Jenkins on the control computer and adding the necessary plugin
 To intercept the hook from local computer we will use webhookrelay service. 
 After configuring the service and receiving a link to the hook from it, add it into the repository settings in the webhook section. 
 After successfully connecting the link, we will make a change to the script and add another metric to track CPU use. 
+The following launch of playbook is performed with tags because the roles of updating the kernel and installing add-ons are no longer necessary.
 After updating the script and making the changes in git, Jenkins will start building the project with the changes made. 
 Refresh the browser page and verify that the changes were successfully made upon assembly completion.
 
