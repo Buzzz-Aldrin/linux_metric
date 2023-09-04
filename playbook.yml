@@ -7,7 +7,9 @@
   - apt_update
   - docker_install
   - script
+    tags: script
   - build
+    tags: build
   
 
   tasks:
